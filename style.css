@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #333;
+    
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#start-record-btn {
+    background-color: #4CAF50; /* Verde para o botão Iniciar */
+}
+
+#pause-record-btn {
+    background-color: #f44336; /* Vermelho para o botão Pausar */
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#transcription {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+.conteudo{
+    margin-bottom: 20px;
+} 
+.rodape{
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
